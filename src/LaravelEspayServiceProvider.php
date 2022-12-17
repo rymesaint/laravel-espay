@@ -2,10 +2,9 @@
 
 namespace Rymesaint\LaravelEspay;
 
+use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Rymesaint\LaravelEspay\Commands\LaravelEspayCommand;
-use Spatie\LaravelPackageTools\Commands\InstallCommand;
 
 class LaravelEspayServiceProvider extends PackageServiceProvider
 {
