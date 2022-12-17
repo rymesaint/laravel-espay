@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "rymesaint/laravel-espay",
+    "description": "This is my package laravel-espay",
     "keywords": [
-        ":vendor_name",
+        "rymesaint",
         "laravel",
-        ":package_slug"
+        "laravel-espay"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/rymesaint/laravel-espay",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Ridwan Fauzan",
+            "email": "rymetutor@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Rymesaint\\LaravelEspay\\": "src",
+            "Rymesaint\\LaravelEspay\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Rymesaint\\LaravelEspay\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Rymesaint\\LaravelEspay\\LaravelEspayServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelEspay": "Rymesaint\\LaravelEspay\\Facades\\LaravelEspay"
             }
         }
     },

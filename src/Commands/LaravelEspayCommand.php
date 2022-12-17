@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Rymesaint\LaravelEspay\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelEspayCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-espay';
 
     public $description = 'My command';
 
